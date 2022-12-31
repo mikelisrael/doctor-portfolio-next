@@ -1,10 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --main-font: "Poppins", sans-serif;
+  --main-white: #fff;
+  --text-dark: #332c58;
+  --transition: 0.5s ease;
+}
+
+/* aos library */
+[data-aos] {
+  pointer-events: none;
+}
+.aos-animate {
+  pointer-events: auto;
+}
+.aos-init[data-aos][data-aos].aos-animate {
+  transform: unset;
+}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: none !important;
+  outline: none;
+}
+
+html {
+  @apply text-xs md:text-sm;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--text-dark);
+}
+
+.second_font {
+  font-family: "Dancing Script", cursive;
+}
+
+.hero {
+  background: url("/hero.png");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+/* buttons styling */
+.main_btn {
+  @apply py-4 px-4 outline-1 outline-white relative overflow-hidden z-[1];
+}
+
+.main_btn.transparent {
+  outline: 1px solid white;
+  background: transparent;
+  color: white;
+  transition: color var(--transition);
+}
+
+.main_btn.transparent::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 100%;
+  height: 100%;
+  transform: skewX(25deg) scaleX(0);
+  z-index: -1;
+  background: white;
+  transition: transform var(--transition);
+}
+
+.main_btn.transparent:hover {
+  color: var(--text-dark);
+}
+
+.main_btn.transparent:hover::before {
+  transform: skewX(25deg) scaleX(2);
+}
+
+.main_btn.filled {
+  background: white;
+  color: var(--text-dark);
+  transition: var(--transition);
+}
+
+.main_btn.filled:hover {
+  transform: translateY(-5px);
+}
+
+.img_small {
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+/* universal padding */
+.universal {
+  @apply px-12 sm:px-24 md:px-32 lg:px-48 xl:px-56;
 }
