@@ -111,6 +111,13 @@ body {
   @apply px-12 sm:px-24 md:px-32 lg:px-48 xl:px-56;
 }
 
+/* social media icons at mobile */
+@media (max-width: 420px) {
+  .link_icons {
+    @apply w-24;
+  }
+}
+
 .logo {
   outline: 1px solid var(--main-dark);
 }

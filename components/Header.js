@@ -32,7 +32,7 @@ const Header = () => {
           </div>
 
           {/* socials side by side */}
-          <div className="mt-10 flex gap-3">
+          <div className="mt-10 flex flex-wrap gap-3 link_icons">
             <a href="#" className="text-white hover:text-[#ff6483]">
               <InstagramIcon fontSize="large" />
             </a>
