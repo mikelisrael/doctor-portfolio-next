@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 const Layout = ({ children }) => {
   useEffect(() => {
     AOS.init({
-      duration: 1000,
+      duration: 300,
       once: true,
     });
   }, []);

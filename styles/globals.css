@@ -8,8 +8,12 @@
 :root {
   --main-font: "Poppins", sans-serif;
   --main-white: #fff;
-  --text-dark: #332c58;
+  --main-dark: #332c58;
+  --main-grey: #f6fbff;
+  --light-blue: #4499cd;
+  --dark-blue: #18639b;
   --transition: 0.5s ease;
+  --dark-pink: #ff6483;
 }
 
 /* aos library */
@@ -32,11 +36,12 @@
 
 html {
   @apply text-xs md:text-sm;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: var(--main-font);
-  color: var(--text-dark);
+  color: var(--main-dark);
 }
 
 .second_font {
@@ -52,7 +57,7 @@ body {
 
 /* buttons styling */
 .main_btn {
-  @apply py-4 px-4 outline-1 outline-white relative overflow-hidden z-[1];
+  @apply p-4 relative overflow-hidden z-[1];
 }
 
 .main_btn.transparent {
@@ -76,7 +81,7 @@ body {
 }
 
 .main_btn.transparent:hover {
-  color: var(--text-dark);
+  color: var(--main-dark);
 }
 
 .main_btn.transparent:hover::before {
@@ -85,7 +90,7 @@ body {
 
 .main_btn.filled {
   background: white;
-  color: var(--text-dark);
+  color: var(--main-dark);
   transition: var(--transition);
 }
 
@@ -104,4 +109,8 @@ body {
 /* universal padding */
 .universal {
   @apply px-12 sm:px-24 md:px-32 lg:px-48 xl:px-56;
+}
+
+.logo {
+  outline: 1px solid var(--main-dark);
 }

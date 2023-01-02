@@ -1,6 +1,6 @@
 import React from "react";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
-import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+// import LocationOnIcon from "@mui/icons-material/LocationOn";
+// import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -23,8 +23,7 @@ const Header = () => {
           <blockquote className="w-full text-lg text-white mt-4">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don't look even slightly
-            believable.
+            humour, or random words which don't look even slightly believable.
           </blockquote>
 
           <div className="mt-8 w-max flex flex-col sm:flex-row gap-3">
@@ -34,16 +33,16 @@ const Header = () => {
 
           {/* socials side by side */}
           <div className="mt-10 flex gap-3">
-            <a href="#" className="text-white">
+            <a href="#" className="text-white hover:text-[#ff6483]">
               <InstagramIcon fontSize="large" />
             </a>
-            <a href="#" className="text-white">
+            <a href="#" className="text-white hover:text-[#ff6483]">
               <FacebookIcon fontSize="large" />
             </a>
-            <a href="#" className="text-white">
+            <a href="#" className="text-white hover:text-[#ff6483]">
               <LinkedInIcon fontSize="large" />
             </a>
-            <a href="#" className="text-white">
+            <a href="#" className="text-white hover:text-[#ff6483]">
               <TwitterIcon fontSize="large" />
             </a>
           </div>
