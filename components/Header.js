@@ -30,7 +30,9 @@ const Header = () => {
 
           <div className="mt-8 w-max flex flex-col sm:flex-row gap-3">
             <button className="main_btn transparent">Book Appointment</button>
-            <button className="main_btn filled">More Information</button>
+            <a href="#about" className="main_btn filled">
+              More Information
+            </a>
           </div>
 
           {/* help positioning */}
