@@ -9,7 +9,7 @@ import MedicalInformationIcon from "@mui/icons-material/MedicalInformation";
 
 const About = ({ aboutRef }) => {
   return (
-    <section id="about" ref={aboutRef}>
+    <section id="about" className="pt-28" ref={aboutRef}>
       <div className="flex items-start justify-center xl:px-24 gap-10 about_grid">
         <div className="flex-shrink">
           <h3>Service has started since 2014</h3>

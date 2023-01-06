@@ -21,7 +21,7 @@ export default function Home() {
     <main className="relative" id="home">
       <Header />
       <Navbar views={{ contactView, servicesView, aboutView, bookingsView }} />
-      <div className="universal mt-16">
+      <div className="universal">
         <About aboutRef={aboutRef} />
         <section id="bookings" ref={bookingsRef}>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit.
