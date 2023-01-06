@@ -1,10 +1,4 @@
 import React from "react";
-// import LocationOnIcon from "@mui/icons-material/LocationOn";
-// import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import TwitterIcon from "@mui/icons-material/Twitter";
 
 const Header = () => {
   return (

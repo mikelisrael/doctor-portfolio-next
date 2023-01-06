@@ -6,10 +6,10 @@ import Services from "../components/Services";
 
 export default function Home() {
   const { ref: contactRef, inView: contactView } = useInView({
-    threshold: 0.7,
+    threshold: 0.6,
   });
   const { ref: servicesRef, inView: servicesView } = useInView({
-    threshold: 0.7,
+    threshold: 0.3,
   });
   const { ref: aboutRef, inView: aboutView } = useInView({
     threshold: 0.7,
