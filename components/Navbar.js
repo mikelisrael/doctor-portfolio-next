@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Logo from "./Logo";
 import MenuIcon from "@mui/icons-material/Menu";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import TwitterIcon from "@mui/icons-material/Twitter";
+// import InstagramIcon from "@mui/icons-material/Instagram";
+// import FacebookIcon from "@mui/icons-material/Facebook";
+// import LinkedInIcon from "@mui/icons-material/LinkedIn";
+// import TwitterIcon from "@mui/icons-material/Twitter";
 import CloseIcon from "@mui/icons-material/Close";
 
 const Navbar = ({ views }) => {
@@ -108,22 +108,6 @@ const Navbar = ({ views }) => {
             );
           })}
         </ul>
-
-        {/* socials side by side */}
-        <div className="mt-5 flex gap-3">
-          <a href="#">
-            <InstagramIcon className="active:text-[#ff6483]" fontSize="small" />
-          </a>
-          <a href="#">
-            <FacebookIcon className="active:text-[#ff6483]" fontSize="small" />
-          </a>
-          <a href="#">
-            <LinkedInIcon className="active:text-[#ff6483]" fontSize="small" />
-          </a>
-          <a href="#">
-            <TwitterIcon className="active:text-[#ff6483]" fontSize="small" />
-          </a>
-        </div>
       </div>
     </nav>
   );

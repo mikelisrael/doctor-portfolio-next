@@ -8,12 +8,13 @@
 :root {
   --main-font: "Poppins", sans-serif;
   --main-white: #fff;
-  --main-dark: #332c58;
+  --main-dark: rgb(75, 85, 99);
   --main-grey: #f6fbff;
   --light-blue: #4499cd;
-  --dark-blue: #18639b;
+  --dark-blue: #1379ce;
   --transition: 0.5s ease;
   --dark-pink: #ff6483;
+  --light-grey: #f7f7f7;
 }
 
 /* aos library */
@@ -42,6 +43,56 @@ html {
 body {
   font-family: var(--main-font);
   color: var(--main-dark);
+}
+
+header section {
+  height: 80vh;
+}
+
+/* at landscape orientation and phone view */
+@media (orientation: landscape) and (max-height: 500px) {
+  body {
+    @apply text-xs;
+  }
+
+  header section {
+    min-height: 100vh !important;
+  }
+
+  header section .img_container {
+    @apply w-[250px];
+  }
+
+  header h1 {
+    @apply !text-3xl;
+  }
+
+  header blockquote {
+    @apply !text-base;
+  }
+}
+
+@media (max-height: 667px) {
+  header section {
+    min-height: 80vh;
+  }
+}
+
+/* height between 800 and 1280 and portrait */
+@media (orientation: portrait) and (max-height: 1280px) and (min-height: 800px) {
+  header section {
+    height: 40vh !important;
+  }
+
+  header section .img_container {
+    @apply w-[350px];
+  }
+}
+
+@media (orientation: portrait) and (max-height: 1080px) {
+  header section {
+    height: 70vh !important;
+  }
 }
 
 .second_font {
@@ -120,4 +171,40 @@ body {
 
 .logo {
   outline: 1px solid var(--main-dark);
+}
+
+.title_text {
+  color: var(--dark-blue);
+}
+
+.picture_about {
+  height: 400px;
+  width: 300px;
+  background-color: red !important;
+  background-image: url("/doc2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.MuiAccordion-gutters {
+  box-shadow: none;
+  background: var(--light-grey);
+  color: var(--main-dark);
+}
+
+.MuiAccordionSummary-root {
+  min-height: 24px;
+  color: var(--dark-blue);
+  font-weight: 500;
+}
+
+@media (max-width: 900px) {
+  .about_grid {
+    flex-direction: column;
+  }
+
+  .picture_about {
+    width: 100%;
+  }
 }
