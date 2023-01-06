@@ -180,7 +180,6 @@ header section {
 .picture_about {
   height: 400px;
   width: 300px;
-  background-color: red !important;
   background-image: url("/doc2.png");
   background-size: cover;
   background-position: center;
@@ -188,15 +187,15 @@ header section {
 }
 
 .MuiAccordion-gutters {
-  box-shadow: none;
-  background: var(--light-grey);
-  color: var(--main-dark);
+  box-shadow: none !important;
+  background: var(--light-grey) !important;
+  color: var(--main-dark) !important;
 }
 
 .MuiAccordionSummary-root {
-  min-height: 24px;
-  color: var(--dark-blue);
-  font-weight: 500;
+  min-height: 24px !important;
+  color: var(--dark-blue) !important;
+  font-weight: 500 !important;
 }
 
 @media (max-width: 900px) {
