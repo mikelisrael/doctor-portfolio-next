@@ -12,14 +12,13 @@ const Header = () => {
 
         <div className="w-full self-center">
           <h3 className="second_font text-3xl text-white">Hi, I am</h3>
-          <h1 className="text-5xl md:text-6xl font-black text-white mt-2">
-            DR. John Doe
+          <h1 className="text-4xl md:text-5xl font-black text-white mt-2">
+            Dr. William Donaldson
           </h1>
 
           <blockquote className="max-w-[300px] md:max-w-[600px] lg:max-w-full text-lg text-white mt-4">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or random words which don't look even slightly believable.
+            Highly motivated and committed General Practitioner with 10+ years
+            experience in public and private practice.
           </blockquote>
 
           <div className="mt-8 w-max flex flex-col sm:flex-row gap-3">

@@ -24,10 +24,14 @@ export default function Home() {
       <Navbar views={{ contactView, servicesView, aboutView, bookingsView }} />
       <div className="universal">
         <About aboutRef={aboutRef} />
-        <Services servicesRef={servicesRef} />
-        <section id="bookings" ref={bookingsRef}></section>
-        <section id="contact" ref={contactRef}></section>
       </div>
+
+      <div className="second_bg services_area universal">
+        <Services servicesRef={servicesRef} />
+      </div>
+
+      <section id="bookings" ref={bookingsRef}></section>
+      <section id="contact" ref={contactRef}></section>
     </main>
   );
 }

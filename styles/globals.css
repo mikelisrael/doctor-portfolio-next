@@ -182,7 +182,7 @@ header section {
   width: 300px;
   background-image: url("/doc2.png");
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
 }
 
@@ -207,3 +207,14 @@ header section {
     width: 100%;
   }
 }
+
+.second_bg {
+  background-color: var(--main-grey);
+}
+
+/* .services_area {
+  background-image: url("/doc-woman.png");
+  background-size: contain;
+  background-position: top right;
+  background-repeat: no-repeat;
+} */
