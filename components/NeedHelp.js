@@ -2,7 +2,7 @@ import React from "react";
 
 const NeedHelp = () => {
   return (
-    <div className="hero h-[20vh] universal flex items-center py-2">
+    <div className="hero h-[25vh] sm:h-[20vh] universal flex items-center py-2">
       <div className="w-full flex flex-wrap items-center justify-start gap-8 md:justify-between xl:px-24">
         <div>
           <h3 className="text-white">Do you need emergency medical care? </h3>

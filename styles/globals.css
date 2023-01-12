@@ -146,7 +146,14 @@ header section {
   transition: var(--transition);
 }
 
-.main_btn.filled:hover {
+.main_btn.filled_blue {
+  background: var(--dark-blue);
+  color: white;
+  transition: var(--transition);
+}
+
+.main_btn.filled:hover,
+.main_btn.filled_blue:hover {
   /* transform: translateY(-5px); */
   translate: 0 -5px;
 }
@@ -212,4 +219,9 @@ header section {
 
 .second_bg {
   background-color: var(--main-grey);
+}
+
+input,
+textarea {
+  @apply w-full p-2 border-[1px] focus:outline-none focus:border-[#1379ce];
 }
