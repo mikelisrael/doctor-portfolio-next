@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 import Logo from "./Logo";
 import MenuIcon from "@mui/icons-material/Menu";
-// import InstagramIcon from "@mui/icons-material/Instagram";
-// import FacebookIcon from "@mui/icons-material/Facebook";
-// import LinkedInIcon from "@mui/icons-material/LinkedIn";
-// import TwitterIcon from "@mui/icons-material/Twitter";
 import CloseIcon from "@mui/icons-material/Close";
 
 const Navbar = ({ views }) => {
@@ -21,9 +17,9 @@ const Navbar = ({ views }) => {
       inView: views?.servicesView,
     },
     {
-      name: "bookings",
-      path: "#bookings",
-      inView: views?.bookingsView,
+      name: "blog",
+      path: "#blog",
+      inView: views?.blogView,
     },
     {
       name: "contact",

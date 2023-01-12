@@ -104,11 +104,12 @@ header section {
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /* buttons styling */
 .main_btn {
-  @apply p-4 relative overflow-hidden z-[1];
+  @apply p-4 relative overflow-hidden z-[1] inline-block;
 }
 
 .main_btn.transparent {
@@ -146,7 +147,8 @@ header section {
 }
 
 .main_btn.filled:hover {
-  transform: translateY(-5px);
+  /* transform: translateY(-5px); */
+  translate: 0 -5px;
 }
 
 .img_small {
@@ -211,10 +213,3 @@ header section {
 .second_bg {
   background-color: var(--main-grey);
 }
-
-/* .services_area {
-  background-image: url("/doc-woman.png");
-  background-size: contain;
-  background-position: top right;
-  background-repeat: no-repeat;
-} */

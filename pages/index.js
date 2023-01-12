@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar";
 import { useInView } from "react-intersection-observer";
 import About from "../components/About";
 import Services from "../components/Services";
+import NeedHelp from "../components/NeedHelp";
+import Contact from "../components/Contact";
 
 export default function Home() {
   const { ref: contactRef, inView: contactView } = useInView({
@@ -14,24 +16,20 @@ export default function Home() {
   const { ref: aboutRef, inView: aboutView } = useInView({
     threshold: 0.7,
   });
-  const { ref: bookingsRef, inView: bookingsView } = useInView({
+  const { ref: blogRef, inView: blogView } = useInView({
     threshold: 0.7,
   });
 
   return (
     <main className="relative" id="home">
       <Header />
-      <Navbar views={{ contactView, servicesView, aboutView, bookingsView }} />
-      <div className="universal">
-        <About aboutRef={aboutRef} />
-      </div>
+      <Navbar views={{ contactView, servicesView, aboutView, blogView }} />
+      <About aboutRef={aboutRef} />
+      <Services servicesRef={servicesRef} />
+      <NeedHelp />
 
-      <div className="second_bg services_area universal">
-        <Services servicesRef={servicesRef} />
-      </div>
-
-      <section id="bookings" ref={bookingsRef}></section>
-      <section id="contact" ref={contactRef}></section>
+      <section id="blog" ref={blogRef}></section>
+      <Contact contactRef={contactRef} />
     </main>
   );
 }
