@@ -5,6 +5,7 @@ import About from "../components/About";
 import Services from "../components/Services";
 import NeedHelp from "../components/NeedHelp";
 import Contact from "../components/Contact";
+import Blog from "../components/Blog";
 
 export default function Home() {
   const { ref: contactRef, inView: contactView } = useInView({
@@ -27,8 +28,7 @@ export default function Home() {
       <About aboutRef={aboutRef} />
       <Services servicesRef={servicesRef} />
       <NeedHelp />
-
-      <section id="blog" ref={blogRef}></section>
+      <Blog blogRef={blogRef} />
       <Contact contactRef={contactRef} />
     </main>
   );

@@ -1,14 +1,25 @@
 import React from "react";
 
-const Logo = ({ handleNav }) => {
+const Logo = ({ handleNav, footer }) => {
+  const goToHome = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
-    <a
+    <button
       href="#home"
-      className="logo capitalize py-3 px-4 w-max cursor-pointer"
-      onClick={handleNav}
+      className={`logo ${
+        footer && "colored font-bold"
+      } capitalize py-3 px-4 w-max cursor-pointer`}
+      onClick={() => {
+        if (handleNav) {
+          handleNav();
+        }
+        goToHome();
+      }}
     >
       DR. WILLIAM
-    </a>
+    </button>
   );
 };
 

@@ -24,7 +24,7 @@ const Contact = ({ contactRef }) => {
     <div className="universal">
       <section
         id="contact"
-        className="pt-28 flex items-center justify-center"
+        className="py-28 flex items-center justify-center"
         ref={contactRef}
       >
         <div className="w-full xl:w-3/4 flex flex-col gap-12">
@@ -42,7 +42,7 @@ const Contact = ({ contactRef }) => {
           <div className="flex justify-between items-center gap-4 w-full">
             <div className="space-y-2 flex items-center self-start flex-col w-full text-center">
               <LocationOnIcon fontSize="large" className="title_text" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Grand Ave, Los Angeles, California, United States</p>
             </div>
 
             <div className="space-y-2 flex items-center self-start flex-col w-full text-center">

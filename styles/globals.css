@@ -182,6 +182,11 @@ header section {
   outline: 1px solid var(--main-dark);
 }
 
+.logo.colored {
+  outline: 2px solid var(--dark-blue);
+  color: var(--dark-blue);
+}
+
 .title_text {
   color: var(--dark-blue);
 }
