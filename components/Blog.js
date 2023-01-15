@@ -12,14 +12,13 @@ const Blog = ({ blogRef }) => {
         </h2>
 
         <p className="mt-7 text-justify">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
-          officia repellat odio officiis harum dolorem quia, unde eligendi
-          possimus recusandae eius voluptatibus illum quos animi architecto
-          tempora, tenetur ea corporis voluptas. Sequi voluptate vel corrupti
-          harum maiores laudantium ullam quidem sapiente sit reprehenderit
-          voluptas, exercitationem nemo laborum voluptatum recusandae. Adipisci
-          mollitia doloribus odio placeat, fugit voluptatum aliquid hic.
-          Voluptatum, aliquam.
+          Here you'll find a collection of articles that cover a wide range of
+          topics related to healthcare, medicine, and wellness. I believe in
+          educating and empowering my patients, and this blog is a platform for
+          me to share my knowledge and expertise with a wider audience. I hope
+          that my articles will provide valuable information and inspiration for
+          anyone interested in improving their health and well-being. Thank you
+          for visiting and I hope you enjoy reading these useful contents.
         </p>
 
         <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-x-3 gap-y-10">
