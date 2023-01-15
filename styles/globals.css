@@ -237,6 +237,7 @@ textarea {
 
 .title_blog {
   position: relative;
+  text-transform: capitalize;
 }
 
 .title_blog::after {
@@ -248,4 +249,16 @@ textarea {
   width: 120px;
   height: 3px;
   background: var(--dark-blue);
+}
+
+.read_more {
+  width: max-content;
+}
+
+.read_more > span:nth-child(2) {
+  transition: var(--transition);
+}
+
+.read_more:hover > span:nth-child(2) {
+  translate: 10px 0;
 }
