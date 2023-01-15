@@ -22,7 +22,9 @@ const Header = () => {
           </blockquote>
 
           <div className="mt-8 w-max flex flex-col sm:flex-row gap-3">
-            <button className="main_btn transparent">Book Appointment</button>
+            <a href="#contact" className="main_btn transparent">
+              Book Appointment
+            </a>
             <a href="#about" className="main_btn filled">
               More Information
             </a>

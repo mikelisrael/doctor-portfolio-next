@@ -10,7 +10,7 @@ import VolunteerActivismIcon from "@mui/icons-material/VolunteerActivism";
 const About = ({ aboutRef }) => {
   return (
     <div className="universal">
-      <section id="about" className="pt-28" ref={aboutRef}>
+      <section id="about" className="py-28" ref={aboutRef}>
         <div className="flex items-start justify-center xl:px-24 gap-10 about_grid">
           <div className="flex-shrink">
             <h3>Service has started since 2010 </h3>
@@ -19,7 +19,7 @@ const About = ({ aboutRef }) => {
               Get to know me
             </h2>
 
-            <p className="mt-7">
+            <p className="mt-7 text-justify">
               I am an adept medical doctor with eight years of practice
               experience. I am dedicated to exemplary patient outcomes and
               following all necessary medical procedures with the use of the
@@ -28,7 +28,7 @@ const About = ({ aboutRef }) => {
               questions in terms patients can easily understand.
             </p>
 
-            <p className="mt-5">
+            <p className="mt-5 text-justify">
               I possess a strong willingness to work with all members of the
               medical team and listen to their suggestions and input to improve
               results and maximize patient satisfaction. I specialized as a
@@ -36,7 +36,7 @@ const About = ({ aboutRef }) => {
               a range of health issues that impact internal organs.
             </p>
 
-            <p className="mt-7">
+            <p className="mt-5 text-justify">
               Currently working as a General Practitioner at DIGNITY HEALTH -
               CALIFORNIA HOSPITAL MEDICAL CENTER, LOS ANGELES, CA
             </p>
@@ -98,7 +98,7 @@ const About = ({ aboutRef }) => {
                     </h2>
                   </AccordionSummary>
                   <AccordionDetails>
-                    <p>
+                    <p className="text-justify">
                       To lead a healthy lifestyle, engage in regular physical
                       activity, eat a well-balanced diet, take precautions to
                       avoid injury, don't smoke and drink in moderation, use

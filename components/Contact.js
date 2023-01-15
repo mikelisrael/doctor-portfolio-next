@@ -47,7 +47,7 @@ const Contact = ({ contactRef }) => {
 
             <div className="space-y-2 flex items-center self-start flex-col w-full text-center">
               <EmailIcon fontSize="large" className="title_text" />
-              <p className="break-all">williamsdonaldson530@gmail.com</p>
+              <p>williamsdonaldson530 @gmail.com</p>
             </div>
 
             <div className="space-y-2 flex items-center self-start flex-col w-full text-center">
@@ -57,7 +57,7 @@ const Contact = ({ contactRef }) => {
           </div>
 
           <form
-            className="second_bg w-full p-5 md:p-10 space-y-5"
+            className="contact_box w-full p-5 md:p-10 space-y-5"
             onSubmit={handleSubmit}
           >
             <div className="flex flex-col md:flex-row gap-5">

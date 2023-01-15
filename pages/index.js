@@ -9,16 +9,16 @@ import Blog from "../components/Blog";
 
 export default function Home() {
   const { ref: contactRef, inView: contactView } = useInView({
-    threshold: 0.6,
+    threshold: 0.5,
   });
   const { ref: servicesRef, inView: servicesView } = useInView({
-    threshold: 0.3,
+    threshold: 0.35,
   });
   const { ref: aboutRef, inView: aboutView } = useInView({
     threshold: 0.7,
   });
   const { ref: blogRef, inView: blogView } = useInView({
-    threshold: 0.7,
+    threshold: 0.5,
   });
 
   return (

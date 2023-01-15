@@ -200,6 +200,10 @@ header section {
   background-repeat: no-repeat;
 }
 
+.contact_box {
+  background-color: var(--light-grey);
+}
+
 .MuiAccordion-gutters {
   box-shadow: none !important;
   background: var(--light-grey) !important;
@@ -229,4 +233,19 @@ header section {
 input,
 textarea {
   @apply w-full p-2 border-[1px] focus:outline-none focus:border-[#1379ce];
+}
+
+.title_blog {
+  position: relative;
+}
+
+.title_blog::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  margin-top: 5px;
+  left: 0;
+  width: 120px;
+  height: 3px;
+  background: var(--dark-blue);
 }
