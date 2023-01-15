@@ -28,30 +28,30 @@ const Contact = ({ contactRef }) => {
         ref={contactRef}
       >
         <div className="w-full xl:w-3/4 flex flex-col gap-12">
-          <div className="flex flex-col gap-3 items-center justify-center">
+          <div className="flex flex-col gap-3 md:items-center justify-center">
             <h2 className="text-3xl lg:text-4xl font-bold mt-2 title_text">
               Get in touch!
             </h2>
 
-            <p className="text-center">
+            <p className="md:text-center">
               Don't hesitate to reach out to me - I'm always happy to hear from
               you! <br /> Here's how you can get in touch with me:
             </p>
           </div>
 
-          <div className="flex justify-between items-center gap-4 w-full">
-            <div className="space-y-2 flex items-center self-start flex-col w-full text-center">
-              <LocationOnIcon fontSize="large" className="title_text" />
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4 w-full">
+            <div className="space-y-2 flex items-center self-start md:flex-col gap-x-3 w-full md:text-center">
+              <LocationOnIcon className="title_text" />
               <p>Grand Ave, Los Angeles, California, United States</p>
             </div>
 
-            <div className="space-y-2 flex items-center self-start flex-col w-full text-center">
-              <EmailIcon fontSize="large" className="title_text" />
+            <div className="space-y-2 flex items-center self-start md:flex-col gap-x-3 w-full md:text-center">
+              <EmailIcon className="title_text" />
               <p>williamsdonaldson530 @gmail.com</p>
             </div>
 
-            <div className="space-y-2 flex items-center self-start flex-col w-full text-center">
-              <PhoneIcon fontSize="large" className="title_text" />
+            <div className="space-y-2 flex items-center self-start md:flex-col gap-x-3 w-full md:text-center">
+              <PhoneIcon className="title_text" />
               <p>+1 (704) 964-9448</p>
             </div>
           </div>

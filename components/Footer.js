@@ -37,7 +37,7 @@ const Footer = () => {
               href="https://www.health.harvard.edu/blog/3-easy-ways-to-eat-a-healthier-diet-2021010421673"
               target="_blank"
               rel="noreferrer"
-              className="flex items-start gap-1 hover:underline capitalize"
+              className="flex items-center md:items-start gap-1 hover:underline capitalize"
             >
               <KeyboardDoubleArrowRightIcon />
               <span>3 easy ways to eat a healthier diet</span>
@@ -46,7 +46,7 @@ const Footer = () => {
               href="https://www.everydayhealth.com/diet-and-nutrition/diet/us-news-best-diet-plans-mediterranean-dash-more/"
               target="_blank"
               rel="noreferrer"
-              className="flex items-start gap-1 hover:underline capitalize"
+              className="flex items-center md:items-start gap-1 hover:underline capitalize"
             >
               <KeyboardDoubleArrowRightIcon />
               <span>Best and Worst Diets for 2023</span>
@@ -55,7 +55,7 @@ const Footer = () => {
               href="https://www.health.harvard.edu/diseases-and-conditions/preventing-the-spread-of-the-coronavirus"
               target="_blank"
               rel="noreferrer"
-              className="flex items-start gap-1 hover:underline capitalize"
+              className="flex items-center md:items-start gap-1 hover:underline capitalize"
             >
               <KeyboardDoubleArrowRightIcon />
               <span>Preventing the spread of the coronavirus</span>
@@ -64,7 +64,7 @@ const Footer = () => {
               href="https://www.proclinical.com/blogs/2022-4/top-10-new-medical-technologies-2022"
               target="_blank"
               rel="noreferrer"
-              className="flex items-start gap-1 hover:underline capitalize"
+              className="flex items-center md:items-start gap-1 hover:underline capitalize"
             >
               <KeyboardDoubleArrowRightIcon />
               <span>Top 10 new medical technologies 2022</span>
@@ -76,22 +76,22 @@ const Footer = () => {
           <div className="mb-10 title_text font-bold text-xl">Contact Info</div>
 
           <div className="space-y-5">
-            <p className="flex items-start gap-3">
+            <p className="flex items-center md:items-start gap-3">
               <LocationOnIcon className="title_text" />
               <span>Grand Ave, Los Angeles, California, United States</span>
             </p>
 
-            <p className="flex items-start gap-3">
+            <p className="flex items-center md:items-start gap-3">
               <PhoneIcon className="title_text" />
               <span>+1 (704) 964-9448</span>
             </p>
 
-            <p className="flex items-start gap-3">
+            <p className="flex items-center md:items-start gap-3">
               <EmailIcon className="title_text" />{" "}
               <span>williamsdonaldson530 @gmail.com</span>
             </p>
 
-            <p className="flex items-start gap-3">
+            <p className="flex items-center md:items-start gap-3">
               <PublicIcon className="title_text" />{" "}
               <span className="break-all">williamsdonald.com</span>
             </p>
