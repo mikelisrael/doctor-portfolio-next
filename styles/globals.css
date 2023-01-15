@@ -253,6 +253,8 @@ textarea {
 
 .read_more {
   width: max-content;
+  position: absolute;
+  bottom: 20px;
 }
 
 .read_more > span:nth-child(2) {

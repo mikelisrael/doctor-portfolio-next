@@ -22,7 +22,7 @@ const Blog = ({ blogRef }) => {
         </p>
 
         <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-x-3 gap-y-10">
-          <article className="outline outline-1 outline-gray-100 p-4 bg-white">
+          <article className="relative outline outline-1 outline-gray-100 p-4 pb-16 bg-white">
             <img
               src="https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/04/how-long-does-it-take-to-lose-weight-1296x728-feature.jpg?h=1528"
               alt=""
@@ -54,7 +54,7 @@ const Blog = ({ blogRef }) => {
             </a>
           </article>
 
-          <article className="outline outline-1 outline-gray-100 p-4  bg-white">
+          <article className="relative outline outline-1 outline-gray-100 p-4 pb-16  bg-white">
             <img
               src="https://i0.wp.com/articles.connectnigeria.com/wp-content/uploads/2021/03/healthy-eating.jpg?fit=620%2C342&ssl=1"
               alt=""
@@ -86,7 +86,7 @@ const Blog = ({ blogRef }) => {
             </a>
           </article>
 
-          <article className="outline outline-1 outline-gray-100 p-4 bg-white">
+          <article className="relative outline outline-1 outline-gray-100 p-4 pb-16 bg-white">
             <img
               src="https://hips.hearstapps.com/hmg-prod/images/how-to-do-cpr-1527695986.jpg?crop=1xw:0.84375xh;center,top&resize=1200:*"
               alt=""
