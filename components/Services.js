@@ -76,10 +76,8 @@ const Services = ({ servicesRef }) => {
                 Nutritional support
               </h2>
               <p>
-                I offer nutritional support to aid in the overall well-being and
-                health of my patients. I provide personalized plans and guidance
-                to help individuals achieve optimal nutrition and improve their
-                overall health
+                I provide personalized plans and guidance to help individuals
+                achieve optimal nutrition and improve their overall health
               </p>
             </div>
           </div>

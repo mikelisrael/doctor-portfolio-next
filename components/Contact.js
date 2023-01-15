@@ -27,7 +27,7 @@ const Contact = ({ contactRef }) => {
         className="py-28 flex items-center justify-center"
         ref={contactRef}
       >
-        <div className="w-full xl:w-3/4 flex flex-col gap-12">
+        <div className="w-full xl:w-3/4 flex flex-col gap-10 md:gap-12">
           <div className="flex flex-col gap-3 md:items-center justify-center">
             <h2 className="text-3xl lg:text-4xl font-bold mt-2 title_text">
               Get in touch!
@@ -39,7 +39,7 @@ const Contact = ({ contactRef }) => {
             </p>
           </div>
 
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4 w-full">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-2 w-full">
             <div className="space-y-2 flex items-center self-start md:flex-col gap-x-3 w-full md:text-center">
               <LocationOnIcon className="title_text" />
               <p>Grand Ave, Los Angeles, California, United States</p>
