@@ -17,10 +17,10 @@ const Layout = ({ children }) => {
       <Head>
         <title>Dr. William Donaldson</title>
 
-        <meta name="title" content="William donaldson" />
+        <meta name="title" content="William Donaldson" />
         <meta
           name="description"
-          content="Medical practitioner  with over 10 years of professional experience"
+          content="Medical practitioner  with over 10 years of professional experience."
         />
         <meta
           name="keywords"
