@@ -168,7 +168,7 @@ header section {
 
 /* universal padding */
 .universal {
-  @apply px-12 sm:px-24 md:px-32 lg:px-48 xl:px-56;
+  @apply px-6 sm:px-24 md:px-32 lg:px-48 xl:px-56;
 }
 
 /* social media icons at mobile */
