@@ -264,3 +264,8 @@ textarea {
 .read_more:hover > span:nth-child(2) {
   translate: 10px 0;
 }
+
+.Toastify__toast {
+  font-family: var(--main-font) !important;
+  @apply !rounded-none !shadow !text-sm;
+}

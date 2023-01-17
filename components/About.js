@@ -20,7 +20,7 @@ const About = ({ aboutRef }) => {
             </h2>
 
             <p className="mt-7 text-justify">
-              I am an adept medical doctor with eight years of practice
+              I am an adept medical doctor with 10+ years of practice
               experience. I am dedicated to exemplary patient outcomes and
               following all necessary medical procedures with the use of the
               latest industry equipment and technology. I have a strong focus on
