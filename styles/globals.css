@@ -38,6 +38,7 @@
 html {
   @apply text-xs md:text-sm;
   scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
 }
 
 body {
