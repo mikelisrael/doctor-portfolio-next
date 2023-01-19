@@ -80,8 +80,8 @@ const About = ({ aboutRef }) => {
                   <AccordionDetails>
                     <p>
                       M.D.: Clinical Medicine Illinois International University
-                      - Chicago, IL Bachelor of Science: Biological Sciences
-                      University of Illinois - Chicago, IL
+                      - Chicago, IL <br /> Bachelor of Science: Biological
+                      Sciences University of Illinois - Chicago, IL
                     </p>
                   </AccordionDetails>
                 </Accordion>

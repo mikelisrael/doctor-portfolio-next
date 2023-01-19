@@ -46,6 +46,22 @@ body {
   color: var(--main-dark);
 }
 
+.body {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+.body > * {
+  scroll-snap-align: start;
+}
+
+#about,
+#contact,
+#services,
+#blog {
+  scroll-snap-align: start;
+}
+
 header section {
   height: 80vh;
 }

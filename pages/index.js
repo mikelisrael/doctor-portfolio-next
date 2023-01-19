@@ -25,11 +25,13 @@ export default function Home() {
     <main className="relative" id="home">
       <Header />
       <Navbar views={{ contactView, servicesView, aboutView, blogView }} />
-      <About aboutRef={aboutRef} />
-      <Services servicesRef={servicesRef} />
-      <NeedHelp />
-      <Blog blogRef={blogRef} />
-      <Contact contactRef={contactRef} />
+      <div className=".body">
+        <About aboutRef={aboutRef} />
+        <Services servicesRef={servicesRef} />
+        <NeedHelp />
+        <Blog blogRef={blogRef} />
+        <Contact contactRef={contactRef} />
+      </div>
     </main>
   );
 }

@@ -93,7 +93,7 @@ const Footer = () => {
 
             <p className="flex items-center md:items-start gap-3">
               <PublicIcon className="title_text" />{" "}
-              <span className="break-all">williamsdonald.com</span>
+              <span className="break-all">williamdonaldson.doctor</span>
             </p>
           </div>
         </section>
