@@ -55,13 +55,6 @@ body {
   scroll-snap-align: start;
 }
 
-#about,
-#contact,
-#services,
-#blog {
-  scroll-snap-align: start;
-}
-
 header section {
   height: 80vh;
 }
