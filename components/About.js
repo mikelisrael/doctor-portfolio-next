@@ -38,7 +38,7 @@ const About = ({ aboutRef }) => {
 
             <p className="mt-5 text-justify">
               Currently working as a General Practitioner at DIGNITY HEALTH -
-              CALIFORNIA HOSPITAL MEDICAL CENTER, LOS ANGELES, CA
+              CALIFORNIA HOSPITAL MEDICAL CENTER, LOS ANGELES, CA.
             </p>
 
             <div className="mt-10 space-y-2">

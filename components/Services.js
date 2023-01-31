@@ -16,7 +16,7 @@ const Services = ({ servicesRef }) => {
             and management of a wide range of illnesses and injuries. My
             services include preventative care, routine check-ups, and ongoing
             management of chronic conditions. I am dedicated to providing
-            personalized, high-quality care to all of my patients
+            personalized, high-quality care to all of my patients.
           </p>
 
           <div className="mt-20 grid grid-cols-2 gap-12 md:gap-24">
@@ -77,7 +77,7 @@ const Services = ({ servicesRef }) => {
               </h2>
               <p>
                 I provide personalized plans and guidance to help individuals
-                achieve optimal nutrition and improve their overall health
+                achieve optimal nutrition and improve their overall health.
               </p>
             </div>
           </div>
