@@ -44,6 +44,7 @@ html {
 body {
   font-family: var(--main-font);
   color: var(--main-dark);
+  @apply leading-6;
 }
 
 .body {
